@@ -32,7 +32,7 @@ namespace Shamer_4001
             //var trs_arr = trs.ToArray();
 
             //GET ALL TABLES IN HTML, SHOULD BE 1 FOR PLANES AND 1 FOR TANKS. GET ALL TRS FROM SELECTED TABLE (INDEX 0 FOR PLANES, 1 FOR TANKS)
-            var trs_arr = doc.DocumentNode.Descendants("table").ToArray()[0].Descendants("tr").ToArray();
+            var trs_arr = doc.DocumentNode.Descendants("table").ToArray()[1].Descendants("tr").ToArray();
             
             string name;
             string tier;
@@ -106,6 +106,33 @@ namespace Shamer_4001
                 }
                 
             }
+
+            Yak-2 KABB
+                1
+                fighters all
+                Battles : 8
+                Respawns : 8
+                Victories : 5
+                Defeats : 3
+                Deaths : 3
+                Air frags / battle : 3.3
+                Air frags / death : 8.7
+                Overall air frags : 26
+                Overall ground frags : 0
+
+            Sd.Kfz. 140/1
+                1
+                light_tank all
+                Battles : 2
+                Respawns : 2
+                Victories : 2
+                Defeats : 0
+                Deaths : 1
+                Overall air frags : 0
+                Ground frags / battle : 2.5
+                Ground frags / death : 5
+                Overall ground frags : 5
+
             */
 
         }
